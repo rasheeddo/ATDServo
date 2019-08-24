@@ -1,8 +1,7 @@
 # ATServo
 
 This is an official API for ATD servo as shown in figure below.
-
-![](image/ATD-5015-10T.jpg)
+<img src="image/ATD-5015-10T.jpg" width="200">
 
 The servo uses RS485 communication for send/receive packet from user computer. You may need to have USB to RS485 module to connect a servo to your computer.
 
