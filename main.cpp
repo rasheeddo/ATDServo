@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>					
 #include <chrono>
-using namespace std::chrono;
+//using namespace std::chrono;
 #include <unistd.h> 
 
 #include "ATServoClass.h"
@@ -86,6 +86,7 @@ int main()
 	//// Example 6 ////
 	//servo.TorqueControl(1,100);		//TorqueControl(ID,raw torque value) the ratio of torque from -5000 to +5000
 	//servo.TorqueControl(2,100);
+	
 	
 
 	servo.portClose();
